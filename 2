@@ -1,0 +1,16 @@
+#Copy the contents from one array to another array in reverse order.
+def Reverse(lst): #It works when we call the function
+
+    new_lst = lst[::-1] #slicing the elements from back
+    print("After reversing the elements",new_lst)
+    return new_lst 
+      
+lst = [10, 11, 12, 13, 14, 15] 
+print("Before reversing the elements",lst)
+(Reverse(lst)) #here we call the function
+
+output:
+
+runfile('C:/Users/Administrator/.spyder-py3/untitled12.py', wdir='C:/Users/Administrator/.spyder-py3')
+Before reversing the elements [10, 11, 12, 13, 14, 15]
+After reversing the elements [15, 14, 13, 12, 11, 10]
