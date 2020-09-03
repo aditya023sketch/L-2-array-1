@@ -1,0 +1,17 @@
+# Python code to remove duplicate elements 
+def Remove(q):
+    final_list = []
+    for num in q:
+        if num not in final_list:
+            final_list.append(num)
+    return final_list
+
+
+# Driver Code
+q = [1,1,1,1,1,2,3,3]
+print(Remove(q))
+ 
+ 
+ output:
+     C:\Users\Administrator\anaconda3\envs\pythonProject\python.exe C:/Users/Administrator/PycharmProjects/pythonProject/main.py
+     [1, 2, 3]
